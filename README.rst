@@ -3,7 +3,7 @@ OMERO.autotag
 OMERO.autotag is a plugin for `OMERO.web <https://github.com/ome/omero-web>`_ that automates the application of tags to images based on the
 original filename, path, and extensions of the images.
 
-This was formerly part of [OMERO.webtagging](https://github.com/German-BioImaging/webtagging), the umbrella name for tools developed to enhance use of text annotations (tags) in OMERO.
+This was formerly part of `OMERO.webtagging <https://github.com/German-BioImaging/webtagging>`_, the umbrella name for tools developed to enhance use of text annotations (tags) in OMERO.
 
 Requirements
 ============
