@@ -29,8 +29,9 @@ def read_version():
 VERSION = read_version()
 DESCRIPTION = "OMERO webtagging autotag app"
 AUTHOR = "D.P.W. Russell"
+MAINTAINER = "Tom Boissonnet"
 LICENSE = "AGPL-3.0"
-HOMEPAGE = "https://github.com/German-BioImaging/webtagging"
+HOMEPAGE = "https://github.com/German-BioImaging/omero-autotag"
 
 REQUIREMENTS = ["omero-web>=5.6.0"]
 
@@ -78,6 +79,8 @@ setup(
     ],
     author=AUTHOR,
     author_email="dpwrussell@gmail.com",
+    maintainer=MAINTAINER,
+    maintainer_email="tom.boissonnet@hhu.de",
     license=LICENSE,
     url=HOMEPAGE,
     download_url="%s/archive/v%s.tar.gz" % (HOMEPAGE, VERSION),
