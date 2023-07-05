@@ -43,7 +43,7 @@ Upgrade from omero-webtagging-autotag to omero-autotag
 
 Since 3.2.2, the package was renamed to `omero-autotag`. This is a breaking change for OMERO.web, as the old package must be removed from the OMERO.web config and replaced by the new package.
 
-You can perform upgrade as follow:
+You can perform the upgrade as follow:
 
 ::
 
@@ -53,11 +53,11 @@ You can perform upgrade as follow:
 
   # Then open the OMERO.web configuration editor
   omero config edit
-  # Update the two configuration called 'omero.web.apps' and 'omero.web.ui.center_plugins'
+  # Update the two configurations called 'omero.web.apps' and 'omero.web.ui.center_plugins'
   # In 'omero.web.apps': 'omero_webtagging_autotag' -> 'omero_autotag'
   # In 'omero.web.ui.center_plugins': '["Auto Tag", "omero_webtagging_autotag/auto_tag_init.js.html", "auto_tag_panel"]' -> '["Auto Tag", "omero_autotag/auto_tag_init.js.html", "auto_tag_panel"]'
 
-Note that installing the latest `omero-webtagging-autotag` is not functional but has a dependency for `omero-autotag`. 
+Note that installing the latest `omero-webtagging-autotag` is not functional but has a dependency on `omero-autotag`. 
 Thus, if you wish to use the old version `omero-webtagging-autotag`, make sure to specify the latest working version:
 
 ::
