@@ -33,10 +33,10 @@ to install it manually as described `here <https://www.openmicroscopy.org/site/s
   pip install omero-webtagging-autotag
 
   # Add autotag to webclient
-  omero config append omero.web.apps '"omero_webtagging_autotag"'
+  omero config append omero.web.apps '"omero_autotag"'
 
   # Add autotag to centre panel
-  omero config append omero.web.ui.center_plugins '["Auto Tag", "omero_webtagging_autotag/auto_tag_init.js.html", "auto_tag_panel"]'
+  omero config append omero.web.ui.center_plugins '["Auto Tag", "omero_autotag/auto_tag_init.js.html", "auto_tag_panel"]'
 
 
 Documentation
