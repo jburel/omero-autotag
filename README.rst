@@ -46,16 +46,17 @@ Since 3.2.2, the package was renamed to `omero-autotag`. This is a breaking chan
 You can perform the upgrade as follow:
 
 ::
-
+  # stop omero web
   # Install the new package and uninstall the old one
-  pip install omero-autotag
   pip uninstall omero-webtagging-autotag
-
+  pip install omero-autotag
+  
   # Then open the OMERO.web configuration editor
   omero config edit
   # Update the two configurations called 'omero.web.apps' and 'omero.web.ui.center_plugins'
   # In 'omero.web.apps': 'omero_webtagging_autotag' -> 'omero_autotag'
   # In 'omero.web.ui.center_plugins': '["Auto Tag", "omero_webtagging_autotag/auto_tag_init.js.html", "auto_tag_panel"]' -> '["Auto Tag", "omero_autotag/auto_tag_init.js.html", "auto_tag_panel"]'
+  # start omero web
 
 Note that installing the latest `omero-webtagging-autotag` is not functional but has a dependency on `omero-autotag`. 
 Thus, if you wish to use the old version `omero-webtagging-autotag`, make sure to specify the latest working version:
@@ -63,8 +64,10 @@ Thus, if you wish to use the old version `omero-webtagging-autotag`, make sure t
 ::
 
   # ONLY IF YOU WANT TO USE AN OLDER VERSION OF THE PLUGIN
+  # stop omero web
   pip install omero-webtagging-autotag==3.2.0
   # And set the configuration accordingly
+  # start omero web
 
 
 Documentation
