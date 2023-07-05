@@ -44,7 +44,7 @@ def require_npm(command, strict=False):
     class WrappedCommand(command):
         def run(self):
             if strict or not os.path.isdir(
-                "omero_webtagging_autotag/static/omero_webtagging_autotag/js"
+                "omero_autotag/static/omero_autotag/js"
             ):
                 self.spawn(["npm", "install"])
                 self.spawn(["npm", "run", "build"])
