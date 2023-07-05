@@ -54,7 +54,7 @@ def require_npm(command, strict=False):
 
 
 setup(
-    name="omero-webtagging-autotag",
+    name="omero-autotag",
     packages=find_packages(exclude=["ez_setup"]),
     version=VERSION,
     description=DESCRIPTION,

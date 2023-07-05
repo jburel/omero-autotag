@@ -30,7 +30,7 @@ to install it manually as described `here <https://www.openmicroscopy.org/site/s
 ::
 
   # In the python environment of OMERO.web (virtualenv or global)
-  pip install omero-webtagging-autotag
+  pip install omero-autotag
 
   # Add autotag to webclient
   omero config append omero.web.apps '"omero_autotag"'
