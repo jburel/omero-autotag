@@ -46,6 +46,7 @@ Since 3.2.2, the package was renamed to `omero-autotag`. This is a breaking chan
 You can perform the upgrade as follow:
 
 ::
+
   # stop omero web
   # Install the new package and uninstall the old one
   pip uninstall omero-webtagging-autotag
