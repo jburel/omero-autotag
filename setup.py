@@ -86,6 +86,7 @@ setup(
     download_url="%s/archive/v%s.tar.gz" % (HOMEPAGE, VERSION),
     keywords=["OMERO.web", "webtagging", "autotag"],
     install_requires=REQUIREMENTS,
+    obsoletes=['omero_webtagging_autotag'],
     python_requires="~=3.5",
     include_package_data=True,
     zip_safe=False,
