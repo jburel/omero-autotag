@@ -39,7 +39,7 @@ to install it manually as described `here <https://www.openmicroscopy.org/site/s
   omero config append omero.web.ui.center_plugins '["Auto Tag", "omero_autotag/auto_tag_init.js.html", "auto_tag_panel"]'
 
 Upgrade from omero-webtagging-autotag to omero-autotag
-============
+======================================================
 
 Since 3.2.2, the package was renamed to `omero-autotag`. This is a breaking change for OMERO.web, as the old package must be removed from the OMERO.web config and replaced by the new package.
 
