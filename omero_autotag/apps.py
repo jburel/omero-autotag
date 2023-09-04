@@ -5,5 +5,5 @@ from django.apps import AppConfig
 
 
 class AutotagAppConfig(AppConfig):
-    name = "omero_webtagging_autotag"
-    label = "omero_webtagging_autotag"
+    name = "omero_autotag"
+    label = "omero_autotag"

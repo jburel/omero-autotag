@@ -9,7 +9,7 @@ module.exports = {
     'bundle': ['babel-polyfill', './src/main.jsx'],
   },
   output: {
-    path: './omero_webtagging_autotag/static/omero_webtagging_autotag/js',
+    path: './omero_autotag/static/omero_autotag/js',
     filename: '[name].js',
     library: 'autotagform'
   },
