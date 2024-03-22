@@ -1,4 +1,4 @@
-.. image:: https://github.com/German-BioImaging/omero-autotag/workflows/OMERO/badge.svg
+.. image:: https://github.com/German-BioImaging/omero-autotag/workflows/PyPI/badge.svg
    :target: https://github.com/German-BioImaging/omero-autotag/actions
 
 .. image:: https://badge.fury.io/py/omero-autotag.svg
