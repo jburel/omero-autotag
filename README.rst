@@ -20,9 +20,9 @@ As Python 2 has now reached end-of-life, OMERO 5.6 now
 requires Python 3. With release 3.1.0 of autotag, the following are now required. To use autotag on older OMERO systems (running Python 2),
 please use versions older than 3.1.0.
 
-* Python 3.5 or later
+* Python 3.8 or later
 * omero-web 5.6 or later
-* django 1.11 or later
+* django 4.2 or later
 
 User Documentation
 ==================
