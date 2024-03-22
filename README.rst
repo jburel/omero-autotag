@@ -1,5 +1,5 @@
 OMERO.autotag
-================
+=============
 OMERO.autotag is a plugin for `OMERO.web <https://github.com/ome/omero-web>`_ that automates the application of tags to images based on the
 original filename, path, and extensions of the images.
 
