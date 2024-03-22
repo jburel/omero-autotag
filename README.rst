@@ -1,5 +1,13 @@
+.. image:: https://github.com/German-BioImaging/omero-autotag/workflows/PyPi/badge.svg
+   :target: https://github.com/German-BioImaging/omero-autotag/actions
+
+.. image:: https://badge.fury.io/py/omero-autotag.svg
+    :target: https://badge.fury.io/py/omero-autotag
+
+
 OMERO.autotag
 =============
+
 OMERO.autotag is a plugin for `OMERO.web <https://github.com/ome/omero-web>`_ that automates the application of tags to images based on the
 original filename, path, and extensions of the images.
 
