@@ -1,4 +1,4 @@
-.. image:: https://github.com/German-BioImaging/omero-autotag/workflows/PyPi/badge.svg
+.. image:: https://github.com/German-BioImaging/omero-autotag/workflows/OMERO/badge.svg
    :target: https://github.com/German-BioImaging/omero-autotag/actions
 
 .. image:: https://badge.fury.io/py/omero-autotag.svg
@@ -130,14 +130,14 @@ Harvard Medical School, then later extended by DPWR
 Consulting Ltd.
 
 These plugins were developed originally with the
-support of [Micron Advanced Bioimaging Unit](https://micronoxford.com/)
+support of `Micron Advanced Bioimaging Unit <https://micronoxford.com/>`_
 funded by the Wellcome Trust Strategic Award 091911,
-and [Open Microscopy](https://www.openmicroscopy.org/).
+and `Open Microscopy <https://www.openmicroscopy.org/>`_.
 
-Continued development was supported by [The Laboratory
-of Systems Pharmacology, Harvard Medical School](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/research-program/) and
-[Research Computing, Harvard Medical School](https://it.hms.harvard.edu/our-services/research-computing).
+Continued development was supported by `The Laboratory
+of Systems Pharmacology, Harvard Medical School <https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/research-program/>`_ and
+`Research Computing, Harvard Medical School <https://it.hms.harvard.edu/our-services/research-computing>`_.
 
 Continued development was sponsored by
-[Micron Advanced Bioimaging Unit](https://micronoxford.com/)
+`Micron Advanced Bioimaging Unit <https://micronoxford.com/>`_
 funded by the Wellcome Trust Strategic Award 107457.
